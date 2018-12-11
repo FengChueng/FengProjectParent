@@ -17,4 +17,13 @@ spring:
       hibernate:
         format_sql: true
 #        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  redis:
+    host: 120.77.252.107
+    password: Txmd2016
+    port: 6379
 
+
+
+jwt:
+  secret: 123456
+  expiration: 60000
